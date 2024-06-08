@@ -8,3 +8,18 @@ function hitlike1() {
   countlike1.textContent = totallike1.toString()
 }
 btnlike1.addEventListener("click,hitlikes1()
+
+
+
+
+
+
+
+
+const submit = document.getElementById("submit")
+const comment = document.getElementById("comment")
+const commentbox = document.getElementById("commentbox")
+function submitcomment(){
+     commentbox.textcontent += comment.value.toString() + "\n"
+}
+submit.addEventLister("click",submitComment)
